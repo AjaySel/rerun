@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="2" name="org.testingworld.automation.testcase.RunCukesTest" time="42.102" errors="2" skipped="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
+    <property name="java.vm.version" value="25.141-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\munna\Selenium\Rerun"/>
+    <property name="java.runtime.version" value="1.8.0_141-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ajay\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\munna\eclipse\BDD\.metadata\.plugins\org.eclipse.m2e.core\launches\m2conf5958207125378416502.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_141/bin/server;C:/Program Files/Java/jre1.8.0_141/bin;C:/Program Files/Java/jre1.8.0_141/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_141\bin;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\ajay\AppData\Local\Microsoft\WindowsApps;;E:\munna\eclipse-jee-juno-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ajay"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ajay"/>
+    <property name="java.class.path" value="/E:/munna/eclipse-jee-juno-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/865/2/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_141\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_141"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\munna\Selenium\Rerun\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| ajay0427@gmail.com | ididit |" name="Given User is on login Page" time="0"/>
+  <testcase classname="| ajay0427@gmail.com | ididit |" name="When user enters \&quot;ajay0427@gmail.com\&quot;" time="0"/>
+  <testcase classname="| ajay0427@gmail.com | ididit |" name="And user enters \&quot;ididit\&quot;" time="0"/>
+  <testcase classname="| ajay0427@gmail.com | ididit |" name="And user clicks on sign in button" time="0"/>
+  <testcase classname="| ajay0427@gmail.com | ididit |" name="Then User logged in successfully" time="0.016">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.testingworld.automation.testcase.Steps.User_logged_in_successfully(Steps.java:79)
+	at ✽.Then User logged in successfully(loginTestCase.feature:11)
+</failure>
+  </testcase>
+  <testcase classname="| ajay0427@gmail.com | ididit |" name="| ajay0427@gmail.com | ididit |" time="0.016">
+    <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.testingworld.automation.testcase.Steps.User_logged_in_successfully(Steps.java:79)
+	at ✽.Then User logged in successfully(loginTestCase.feature:11)
+</failure>
+  </testcase>
+  <testcase classname="| jaiswalajay0427@gmail.com | password2 |" name="Given User is on login Page" time="0">
+    <error message="Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;RASH&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x43127e - &lt;no info&gt;
+   4:           0x40ba4e - &lt;no info&gt;
+   5:           0x4119b9 - &lt;no info&gt;
+   6:           0x6d2c89 - &lt;no info&gt;
+   7:           0x426006 - &lt;no info&gt;
+   8:           0x6cd490 - &lt;no info&gt;
+   9:     0x7fffe0f78364 - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;RASH&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x43127e - &lt;no info&gt;
+   4:           0x40ba4e - &lt;no info&gt;
+   5:           0x4119b9 - &lt;no info&gt;
+   6:           0x6d2c89 - &lt;no info&gt;
+   7:           0x426006 - &lt;no info&gt;
+   8:           0x6cd490 - &lt;no info&gt;
+   9:     0x7fffe0f78364 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:104)
+	at org.testingworld.automation.base.CreateDriverinstance.getDriverInstancein(CreateDriverinstance.java:19)
+	at org.testingworld.automation.testcase.Steps.User_is_on_login_Page(Steps.java:28)
+	at ✽.Given User is on login Page(loginTestCase.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Login with Valid credentials # loginTestCase.feature:15
+    When user enters &quot;ajay0427@gmail.com&quot;        # Steps.user_enters_username(String)
+    And user enters &quot;ididit&quot;                     # Steps.user_enters_username(String)
+    And user clicks on sign in button            # Steps.user_clicks_on_sign_in_button()
+    Then User logged in successfully             # Steps.User_logged_in_successfully()
+      junit.framework.AssertionFailedError
+      	at junit.framework.Assert.fail(Assert.java:55)
+      	at junit.framework.Assert.assertTrue(Assert.java:22)
+      	at junit.framework.Assert.assertTrue(Assert.java:31)
+      	at org.testingworld.automation.testcase.Steps.User_logged_in_successfully(Steps.java:79)
+      	at ?.Then User logged in successfully(loginTestCase.feature:11)
+
+</system-out>
+    <system-err>1510684079175	geckodriver	INFO	geckodriver 0.19.0
+1510684079206	geckodriver	INFO	Listening on 127.0.0.1:44188
+1510684079800	mozrunner::runner	INFO	Running command: &quot;C:/Program Files (x86)/Mozilla Firefox/firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\ajay\\AppData\\Local\\Temp\\rust_mozprofile.kcVHYBkmC5g3&quot;
+1510684080577	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:269 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:739 &lt; startup()@resource://gre/modules/AddonManager.jsm:906 &lt; startup()@resource://gre/modules/AddonManager.jsm:3090 &lt; observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1510684083139	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ajay\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3968] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1510684089893	Marionette	INFO	Listening on port 9250
+1510684090307	Marionette	DEBUG	Register listener.js for window 4294967297
+Promise rejected after context unloaded: Message manager disconnected
+</system-err>
+  </testcase>
+  <testcase classname="| jaiswalajay0427@gmail.com | password2 |" name="| jaiswalajay0427@gmail.com | password2 |" time="0.031">
+    <error message="Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;RASH&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x43127e - &lt;no info&gt;
+   4:           0x40ba4e - &lt;no info&gt;
+   5:           0x4119b9 - &lt;no info&gt;
+   6:           0x6d2c89 - &lt;no info&gt;
+   7:           0x426006 - &lt;no info&gt;
+   8:           0x6cd490 - &lt;no info&gt;
+   9:     0x7fffe0f78364 - BaseThreadInitThunk" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;RASH&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_141&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445281 - &lt;no info&gt;
+   3:           0x43127e - &lt;no info&gt;
+   4:           0x40ba4e - &lt;no info&gt;
+   5:           0x4119b9 - &lt;no info&gt;
+   6:           0x6d2c89 - &lt;no info&gt;
+   7:           0x426006 - &lt;no info&gt;
+   8:           0x6cd490 - &lt;no info&gt;
+   9:     0x7fffe0f78364 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:108)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:104)
+	at org.testingworld.automation.base.CreateDriverinstance.getDriverInstancein(CreateDriverinstance.java:19)
+	at org.testingworld.automation.testcase.Steps.User_is_on_login_Page(Steps.java:28)
+	at ✽.Given User is on login Page(loginTestCase.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| jaiswalajay0427@gmail.com | password2 |" name="When user enters \&quot;jaiswalajay0427@gmail.com\&quot;" time="0.044">
+    <skipped/>
+  </testcase>
+  <testcase classname="| jaiswalajay0427@gmail.com | password2 |" name="And user enters \&quot;password2\&quot;" time="0.044">
+    <skipped/>
+  </testcase>
+  <testcase classname="| jaiswalajay0427@gmail.com | password2 |" name="And user clicks on sign in button" time="0.075">
+    <skipped/>
+  </testcase>
+  <testcase classname="| jaiswalajay0427@gmail.com | password2 |" name="Then User logged in successfully" time="0.075">
+    <skipped/>
+  </testcase>
+</testsuite>
